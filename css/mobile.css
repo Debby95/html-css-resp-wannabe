@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px) {
+    .site-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lessons {
+        display: flex;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        min-width: 100%;
+    }
+
+    .card {
+        margin-bottom: 70px;
+    }
+
+    .steps {
+        display: flex;
+    }
+
+    .text {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .why-us {
+        display: flex;
+        background-color: black;
+    }
+}
